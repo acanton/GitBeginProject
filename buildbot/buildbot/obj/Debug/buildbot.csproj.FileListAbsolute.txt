@@ -1,0 +1,16 @@
+C:\UI_Project\buildbot\buildbot\bin\Debug\buildbot.exe.config
+C:\UI_Project\buildbot\buildbot\bin\Debug\buildbot.exe
+C:\UI_Project\buildbot\buildbot\bin\Debug\buildbot.pdb
+C:\UI_Project\buildbot\buildbot\obj\Debug\buildbot.csprojResolveAssemblyReference.cache
+C:\UI_Project\buildbot\buildbot\obj\Debug\buildbot.exe
+C:\UI_Project\buildbot\buildbot\obj\Debug\buildbot.pdb
+C:\UI_Project\buildbot\buildbot\bin\Debug\Sharpen.dll
+C:\UI_Project\buildbot\buildbot\bin\Debug\NSch.dll
+C:\UI_Project\buildbot\buildbot\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\UI_Project\buildbot\buildbot\bin\Debug\NGit.pdb
+C:\UI_Project\buildbot\buildbot\bin\Debug\Sharpen.pdb
+C:\UI_Project\buildbot\buildbot\bin\Debug\NSch.pdb
+C:\UI_Project\buildbot\buildbot\bin\Debug\Mono.Security.Win32.dll
+C:\UI_Project\buildbot\buildbot\bin\Debug\Mono.Posix.dll
+C:\UI_Project\buildbot\buildbot\bin\Debug\Mono.Security.dll
+C:\UI_Project\buildbot\buildbot\bin\Debug\NGit.dll

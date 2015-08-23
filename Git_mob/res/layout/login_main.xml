@@ -1,0 +1,109 @@
+<LinearLayout
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+       	android:id="@+id/Login_frame"
+       	android:orientation="vertical" 
+       	android:layout_width="match_parent"
+       	android:layout_height="match_parent"
+        android:background="@drawable/homescreen_keyboard"
+       	android:gravity="top" >
+        
+        <TextView
+      		android:id="@+id/tv"
+       		android:layout_width="match_parent"
+       		android:layout_height="100dp"/>
+            
+ 		<LinearLayout
+        	android:id="@+id/user_layout"
+       		android:orientation="horizontal"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_gravity="center" >
+        	  
+ 	   		<ImageView
+ 	        	android:id="@+id/userid_image"
+ 	        	android:contentDescription="@string/usercontent"
+       			android:layout_width="54dp"
+        		android:layout_height="40dp"
+       			android:adjustViewBounds="true"/>
+ 			
+        	<EditText
+        	    android:id="@+id/userid" 
+    			android:layout_width="200dp" 
+    			android:layout_height="50dp" 
+    			android:inputType="text"
+    			android:ellipsize="start"
+    			android:hint="@string/UserName"
+    			android:padding="5dp"
+    			android:layout_gravity="center"/>
+       	    
+   	 	</LinearLayout>
+    	<LinearLayout
+       		android:id="@+id/pass_layout"
+       		android:orientation="horizontal"
+    		android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+    		android:layout_gravity="center"
+    		android:layout_marginTop="10dp" >
+        	<ImageView
+ 		       android:id="@+id/password_image"
+ 	           android:contentDescription="@string/passcontent"
+    		   android:layout_width="54dp"
+               android:layout_height="40dp"
+        	   android:adjustViewBounds="true" />
+        	<EditText 
+        	    android:id="@+id/passid"
+    			android:layout_width="200dp" 
+    			android:layout_height="50dp" 		
+    			android:inputType="textPassword"
+    			android:ellipsize="start"
+    			android:hint="@string/Password"
+    			android:padding="5dp"
+    			android:layout_gravity="left"/> 
+        	
+        </LinearLayout>
+		<LinearLayout 
+    	    	android:id="@+id/login_layout"
+    	    	android:orientation="horizontal"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:layout_marginTop="12dp">
+        	
+    			<ImageView
+ 		       android:id="@+id/dummy_image"
+ 	           android:contentDescription="@string/passcontent"
+    		   android:layout_width="165dp"
+               android:layout_height="10dp"
+        	   android:adjustViewBounds="true" />        
+    	
+    			<Button
+    			android:id="@+id/button_login"
+    	    	android:layout_width="140dp"
+    	    	android:layout_height="45dp"
+    	    	android:background="@drawable/loginbutton" 
+    	    	/> 
+    	
+        </LinearLayout>
+        <LinearLayout 
+    	    	android:id="@+id/register_layout"
+    	    	android:orientation="horizontal"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:layout_marginTop="52dp">
+        	
+    			<ImageView
+ 		       android:id="@+id/dummy_image2"
+ 	           android:contentDescription="@string/passcontent"
+    		   android:layout_width="165dp"
+               android:layout_height="10dp"
+        	   android:adjustViewBounds="true" />        
+    	
+    			<Button
+    			android:id="@+id/button_register"
+    	    	android:layout_width="140dp"
+    	    	android:layout_height="45dp"
+    	    	android:background="@drawable/registerbutton" 
+    	    	/> 
+    	
+        </LinearLayout>
+    		
+</LinearLayout>

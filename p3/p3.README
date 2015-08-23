@@ -1,0 +1,26 @@
+Alexander Canton
+Bibek Ghimire
+Michael Kelly
+James Smith
+
+Before running our program, please follow these instructions
+	to coordinate the AutoItX3 library:
+	
+1. Download and install AutoIt (full installation)
+2. Run cmd as administrator
+3. cd C:\Windows\System32
+4. regsvr32 "C:\[AutoIt install directory]\AutoItX3.dll"
+5. Open regedit
+6. Search for AutoItX in HKEY_CLASSES_ROOT\AppID
+	(Michael found it in 
+	 HKEY_CLASSES_ROOT\AppID{6E8109C4-F369-415D-AF9A-2AEEFF313234}
+	)
+7. Create a blank REG_SZ (String) entry called DllSurrogate
+
+If this isn't working, let us know and we'll see if we can figure it out.
+
+
+The executable file can be found in this directory:
+<CURRENT DIRECTORY>/GitBegin_UI/GitBegin_remote/GitBegin/bin/Debug
+
+It should be called GitBegin.exe (or just GitBegin, sometimes it varies)
